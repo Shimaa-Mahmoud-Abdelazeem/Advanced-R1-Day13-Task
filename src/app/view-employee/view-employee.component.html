@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row justify-content-center pt-5">
+      <div class="col-6 mx-auto">
+      <div class="card">
+          <h5 class="card-header text-center">Employee Details</h5>
+          <img class="text-center mt-3" src="../../assets/employee.png" width="150px" style="margin-left: 35%;" alt="img-employee" />
+          <div class="card-body">
+              <h5 class="card-title">Id :{{employee?.id}}</h5>
+              <p class="card-text">firstName: {{employee?.firstName}}</p>
+              <p class="card-text">lastName: {{employee?.lastName}}</p>
+              <p class="card-text">Email: {{employee?.email}}</p>
+              <p class="card-text">Address: {{employee?.address}}</p>
+              <p class="card-text">Phone:{{employee?.phone}}</p> <a [routerLink]="['/']"
+                  class="btn btn-primary mt-3">Go Back</a>
+          </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
